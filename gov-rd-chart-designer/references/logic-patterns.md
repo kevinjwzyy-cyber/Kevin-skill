@@ -59,6 +59,16 @@ Use one argument per figure:
 - Route: `任务递进 -> 技术集成 -> 验证应用`.
 - Assessment: `任务 -> 成果 -> 指标 -> 验收证据`.
 
+## Matrix Cell Writing
+
+Use compact, parallel wording for document matrices:
+
+- Keep each cell to 1-3 short lines.
+- Use noun phrases or verb-object phrases instead of full sentences.
+- Keep rows structurally parallel so reviewers can scan across columns.
+- Add concrete evidence words such as `数据集`, `评价报告`, `质控记录`, `验证日志`, `样机/原型`, or `测试报告` when the result column would otherwise look empty.
+- Do not pad cells with slogans. If the table looks sparse, improve the technical content or reduce the visual row height.
+
 ## Language Tone
 
 Use formal, precise, proposal-friendly Chinese:

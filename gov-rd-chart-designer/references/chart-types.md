@@ -43,18 +43,30 @@ Use when the proposal must prove that work packages are complete and coordinated
 Use when the proposal must show targeted problem solving.
 
 - Question: Which bottleneck is solved by which key technology, producing which measurable outcome?
-- Structure: bottleneck column -> key technology column -> research method column -> expected outcome column.
+- Structure: `序号 | 技术瓶颈 | 突破技术 | 验证方法 | 成果与证据`.
 - Best for: innovation points, feasibility, assessment indicators.
+- Layout: use a compact document matrix with a narrow serial-number column and no floating row badges.
 - Avoid: one-to-many mappings that become unreadable; split into two figures if needed.
+
+## Document Matrix Figure
+
+Use when formal Word/PDF body text needs a dense, auditable table-like figure rather than a PPT-style visual.
+
+- Question: How do proposal elements correspond row by row for review, replication, or acceptance?
+- Structure: `序号 | 核心对象 | 方法/技术 | 验证/依据 | 成果/证据`, renamed to match the chapter.
+- Best for: technical bottleneck matrices, task-indicator-result matrices, review evidence matrices.
+- Layout: first column is a separate narrow serial-number column; remaining columns use concise multi-line phrases.
+- Density: the table body should fill most of the artwork, with tight outer margins and compact cell padding.
+- Avoid: large internal titles, subtitles, footer notes, decorative circles, icons, and oversized blank cells.
 
 ## Indicator-Task-Result Matrix
 
 Use when the proposal must show that indicators can be achieved and verified.
 
 - Question: Which task supports each assessment indicator, and what result will prove completion?
-- Structure: rows as indicators or tasks; columns as task, method, data/evidence, deliverable, verification.
+- Structure: rows as indicators or tasks; columns as `序号`, task, method, data/evidence, deliverable, verification when space allows.
 - Best for: performance objectives, assessment plan, acceptance criteria.
-- Avoid: small dense tables; keep labels concise and use numbering.
+- Avoid: small dense tables; keep labels concise and use a dedicated numbering column.
 
 ## Organization And Collaboration Mechanism
 

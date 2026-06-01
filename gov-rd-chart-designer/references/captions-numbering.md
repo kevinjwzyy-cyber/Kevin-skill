@@ -15,6 +15,8 @@ Figure labels must follow the chapter and the surrounding text. Do not generate 
 
 Use a caption that connects the chapter topic, project subject, and figure purpose.
 
+For Word/PDF body figures, keep the official caption outside the artwork. Do not place `建议图题`, formal figure numbers, large titles, subtitles, or explanatory footer notes inside the image unless the user explicitly asks for a display-style graphic.
+
 Good patterns:
 
 - `图2-1 项目拟解决的关键科学问题与技术瓶颈关系图`
@@ -29,6 +31,8 @@ Avoid:
 - `流程图`
 - `项目图`
 - captions that use marketing slogans instead of technical content.
+- putting `建议图题：...` inside the image itself.
+- duplicating a large in-image title and a Word caption for the same figure.
 
 ## Body Reference Sentences
 
@@ -43,6 +47,8 @@ Examples:
 ## Explanatory Text After Figure
 
 When useful, provide one short paragraph after the figure that explains the logic, not the visual style.
+
+Keep this paragraph as document text outside the artwork. For matrix figures, do not use bottom notes inside the image to explain what the matrix does; put that explanation before or after the figure in the body text.
 
 Example:
 

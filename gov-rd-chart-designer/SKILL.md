@@ -25,10 +25,12 @@ Default to figures that are restrained, editable, logically explicit, and readab
 3. Choose the figure type.
    - Read `references/chart-types.md` when selecting among architecture, technical route, principle, task decomposition, indicator matrix, closed-loop, or mechanism figures.
    - Use the figure type that answers one clear question, such as "what technical bottleneck is solved," "how the core principle works," or "how tasks support indicators."
+   - For bottleneck-technology-validation-evidence mappings, default to a compact document matrix with a separate narrow serial-number column.
 
 4. Design the figure for Word/PDF and printing.
    - Read `references/print-spec.md` before giving final dimensions, typography, line weights, color rules, or raster export settings.
    - Prefer editable vector output: SVG, draw.io XML, Mermaid source that can be exported to SVG/PDF, or a PPT/Word-editable structure.
+   - For document matrices, keep the table body dominant, reduce outer and cell padding, and avoid floating decorative row numbers.
    - Avoid color-only meaning, low-contrast labels, gradients, shadows, tiny text, screenshot-like raster output, and slide-style decoration.
 
 5. Generate chapter-aware labels.
@@ -62,4 +64,7 @@ Before finalizing, verify:
 - Text remains readable in A4 Word/PDF at the intended insertion size.
 - Meaning is still clear in black-and-white printing.
 - Lines, arrows, labels, and module boundaries are visible after PDF export.
+- Document matrices have a reasonable text-to-whitespace ratio; the table body should not look sparse or padded for display.
+- Matrix row numbers use a dedicated narrow column, not floating circles, badges, or decorative markers.
+- Captions, suggested figure titles, subtitles, and explanatory notes stay outside the artwork unless explicitly requested.
 - The figure avoids empty slogans, decorative clutter, and PPT-only visual effects.
