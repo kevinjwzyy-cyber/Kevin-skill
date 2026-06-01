@@ -66,5 +66,6 @@ Before finalizing, verify:
 - Lines, arrows, labels, and module boundaries are visible after PDF export.
 - Document matrices have a reasonable text-to-whitespace ratio; the table body should not look sparse or padded for display.
 - Matrix row numbers use a dedicated narrow column, not floating circles, badges, or decorative markers.
+- Matrix headers, row numbers, and body cell text are horizontally and vertically centered unless a long evidence note explicitly requires left alignment.
 - Captions, suggested figure titles, subtitles, and explanatory notes stay outside the artwork unless explicitly requested.
 - The figure avoids empty slogans, decorative clutter, and PPT-only visual effects.

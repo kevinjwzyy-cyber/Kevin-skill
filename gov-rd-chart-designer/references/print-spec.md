@@ -44,6 +44,9 @@ Use these rules for formal matrix figures such as bottleneck-technology-validati
 - Make the matrix body occupy at least 80-88% of the artwork height; avoid large title, subtitle, footer, or note areas inside the image.
 - Keep artwork outer margins tight: about 3-5 mm on each side at final print size.
 - Use compact cell padding: about 2.5-4 mm horizontally and 2-3 mm vertically at final print size.
+- Center text horizontally and vertically in every header and body cell by default, including multi-line Chinese phrases.
+- Keep row numbers exactly centered in the dedicated `序号` column; they must not sit above, below, or outside the cell center.
+- Use left alignment only as an explicit exception for long paragraph-like evidence text, and keep it vertically centered within the cell.
 - Use consistent row heights. For 4-row matrices, target about 22-30 mm per row within a 150-160 mm wide portrait figure.
 - Keep column headers to one short phrase each. Use a light gray-blue or pale blue header fill, not large high-saturation color blocks.
 - Put row numbers in a dedicated narrow first column labeled `序号`; width should be about 7-10% of the table width.
@@ -71,4 +74,5 @@ Before final delivery, check:
 - Are repeated modules aligned and evenly spaced?
 - Does the figure contain only the information needed for the current section?
 - For matrices, does the first column contain serial numbers as its own column rather than floating markers?
+- For matrices, are all headers, row numbers, and body text horizontally and vertically centered unless a long evidence note is explicitly left-aligned?
 - For matrices, does the figure avoid a "few words in a large box" look while preserving A4 readability?
