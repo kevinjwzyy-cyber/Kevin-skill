@@ -24,6 +24,7 @@ Default to figures that are restrained, editable, logically explicit, and readab
 
 3. Choose the figure type.
    - Read `references/chart-types.md` when selecting among architecture, technical route, principle, task decomposition, indicator matrix, closed-loop, or mechanism figures.
+   - Read `references/layout-templates.md` and choose a stable template before drawing; avoid free-form placement.
    - Use the figure type that answers one clear question, such as "what technical bottleneck is solved," "how the core principle works," or "how tasks support indicators."
    - For bottleneck-technology-validation-evidence mappings, default to a compact document matrix with a separate narrow serial-number column.
 
@@ -48,7 +49,7 @@ When asked to design a figure, provide:
 
 1. Figure metadata: figure number, caption, insertion context, and body-reference sentence.
 2. Design intent: the single question the figure answers.
-3. Logical structure: modules, sequence, hierarchy, or matrix axes.
+3. Logical structure: chosen layout template, modules, sequence, hierarchy, or matrix axes.
 4. Visual specification: page fit, orientation, typography, line weights, color, and black-and-white readability notes.
 5. Editable source or implementation instructions, when requested or when the user asks for a usable artifact.
 
@@ -60,6 +61,7 @@ Before finalizing, verify:
 
 - The figure number follows the chapter and existing document style.
 - The caption matches the chapter topic and the target paragraph.
+- The figure uses a named layout template unless there is a clear reason to use a custom structure.
 - The figure expresses both proposal logic and technical principle where relevant.
 - The visual hierarchy can be understood in 10 seconds by a reviewer.
 - The layout uses a clear grid, lane, table, or symmetric structure rather than freely placed boxes.
