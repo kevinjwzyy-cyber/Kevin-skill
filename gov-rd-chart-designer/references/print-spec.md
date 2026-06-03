@@ -27,6 +27,8 @@ Design figures for formal A4 government application documents. The figure must r
 - Important boundary or main flow arrow: 1.1-1.5 pt.
 - Use arrowheads large enough to survive PDF export.
 - Keep spacing consistent; avoid crowded arrows crossing text.
+- Prefer straight or orthogonal connectors in formal document figures; avoid long diagonal connectors unless they are the only clear way to show the relation.
+- Similar modules must align to a visible grid and use consistent sizes; avoid boxes floating in open canvas space.
 
 ## Color And Contrast
 
@@ -72,6 +74,7 @@ Before final delivery, check:
 - Is the figure still understandable in grayscale?
 - Are arrows and line boundaries visible after PDF export?
 - Are repeated modules aligned and evenly spaced?
+- Does the figure avoid floating boxes, long diagonal arrows, and large unused canvas areas?
 - Does the figure contain only the information needed for the current section?
 - For matrices, does the first column contain serial numbers as its own column rather than floating markers?
 - For matrices, are all headers, row numbers, and body text horizontally and vertically centered unless a long evidence note is explicitly left-aligned?

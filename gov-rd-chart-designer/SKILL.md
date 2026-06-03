@@ -29,9 +29,10 @@ Default to figures that are restrained, editable, logically explicit, and readab
 
 4. Design the figure for Word/PDF and printing.
    - Read `references/print-spec.md` before giving final dimensions, typography, line weights, color rules, or raster export settings.
+   - Read `references/visual-quality.md` before choosing a layout pattern or producing editable source.
    - Prefer editable vector output: SVG, draw.io XML, Mermaid source that can be exported to SVG/PDF, or a PPT/Word-editable structure.
    - For document matrices, keep the table body dominant, reduce outer and cell padding, and avoid floating decorative row numbers.
-   - Avoid color-only meaning, low-contrast labels, gradients, shadows, tiny text, screenshot-like raster output, and slide-style decoration.
+   - Avoid floating boxes on blank canvas, long diagonal arrows, color-only meaning, low-contrast labels, gradients, shadows, tiny text, screenshot-like raster output, and slide-style decoration.
 
 5. Generate chapter-aware labels.
    - Read `references/captions-numbering.md` when assigning figure numbers, captions, body references, or explanatory text.
@@ -61,11 +62,13 @@ Before finalizing, verify:
 - The caption matches the chapter topic and the target paragraph.
 - The figure expresses both proposal logic and technical principle where relevant.
 - The visual hierarchy can be understood in 10 seconds by a reviewer.
+- The layout uses a clear grid, lane, table, or symmetric structure rather than freely placed boxes.
 - Text remains readable in A4 Word/PDF at the intended insertion size.
 - Meaning is still clear in black-and-white printing.
 - Lines, arrows, labels, and module boundaries are visible after PDF export.
+- Arrows are short, deliberate, and aligned; long diagonal connectors and awkward collisions are rejected.
 - Document matrices have a reasonable text-to-whitespace ratio; the table body should not look sparse or padded for display.
 - Matrix row numbers use a dedicated narrow column, not floating circles, badges, or decorative markers.
 - Matrix headers, row numbers, and body cell text are horizontally and vertically centered unless a long evidence note explicitly requires left alignment.
 - Captions, suggested figure titles, subtitles, and explanatory notes stay outside the artwork unless explicitly requested.
-- The figure avoids empty slogans, decorative clutter, and PPT-only visual effects.
+- The figure avoids empty slogans, decorative clutter, large unused canvas areas, and PPT-only visual effects.

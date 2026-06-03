@@ -87,7 +87,9 @@ Use when the proposal must show iterative R&D or application verification.
 - Question: How will research, testing, feedback, and improvement form a closed loop?
 - Structure: R&D design -> prototype/system -> test verification -> application feedback -> optimization iteration.
 - Best for: demonstration application, validation plan, continuous improvement.
-- Avoid: circular arrows without concrete evaluation criteria.
+- Layout: prefer a compact four-step cycle, a two-row feedback lane, or a 2x2 quadrant with equal modules and short orthogonal connectors.
+- Center concept: if a central concept is needed, use a small aligned center label or a narrow band, not a large isolated box.
+- Avoid: circular arrows without concrete evaluation criteria; detached boxes around a large center box; long diagonal arrows; large blank areas around the loop.
 
 ## Application Demonstration And Transformation Path
 
