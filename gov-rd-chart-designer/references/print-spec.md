@@ -19,6 +19,8 @@ Design figures for formal A4 government application documents. The figure must r
 - Use common Chinese fonts such as SimSun, SimHei, Microsoft YaHei, or the document's existing font style.
 - Avoid long sentences inside boxes. Use short phrases, numbering, and line breaks.
 - For compact document matrices, prefer 9 pt text with 1.05-1.15 line spacing; avoid loose paragraph spacing inside cells.
+- For numbered cards, badges, corner tags, or icons, reserve a separate layout band. Do not place the badge and the title on the same crowded baseline. If the title is long, move the badge above the title, reduce the title one step, or wrap the title into two centered lines.
+- Every text box must pass a fit check at final Word insertion size: no glyph may touch the border, overlap a badge/icon, or exceed the box boundary after SVG/PDF/PNG export.
 
 ## Lines And Shapes
 
@@ -29,6 +31,7 @@ Design figures for formal A4 government application documents. The figure must r
 - Keep spacing consistent; avoid crowded arrows crossing text.
 - Prefer straight or orthogonal connectors in formal document figures; avoid long diagonal connectors unless they are the only clear way to show the relation.
 - Similar modules must align to a visible grid and use consistent sizes; avoid boxes floating in open canvas space.
+- Similar cards must reserve the same internal zones for badge/title/body/note text. Do not let decorative markers intrude into the text area.
 
 ## Color And Contrast
 
@@ -74,6 +77,8 @@ Before final delivery, check:
 - Is the figure still understandable in grayscale?
 - Are arrows and line boundaries visible after PDF export?
 - Are repeated modules aligned and evenly spaced?
+- Do all cards and text boxes keep badges, titles, body text, and notes in separate non-overlapping zones?
+- Does every text label fit inside its box at final Word/PDF size without touching borders or colliding with markers?
 - Does the figure avoid floating boxes, long diagonal arrows, and large unused canvas areas?
 - Does the figure contain only the information needed for the current section?
 - For matrices, does the first column contain serial numbers as its own column rather than floating markers?

@@ -66,6 +66,7 @@ Before finalizing, verify:
 - The visual hierarchy can be understood in 10 seconds by a reviewer.
 - The layout uses a clear grid, lane, table, or symmetric structure rather than freely placed boxes.
 - Text remains readable in A4 Word/PDF at the intended insertion size.
+- Text boxes do not overflow, clip, or collide: numbered badges, corner tags, icons, or labels must occupy their own reserved zone and must not share a cramped title baseline.
 - Meaning is still clear in black-and-white printing.
 - Lines, arrows, labels, and module boundaries are visible after PDF export.
 - Arrows are short, deliberate, and aligned; long diagonal connectors and awkward collisions are rejected.

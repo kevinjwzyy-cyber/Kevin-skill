@@ -25,6 +25,7 @@ Use for project implementation routes and staged R&D plans.
 - Optional: a narrow evidence row under the main lane for data, prototype, report, or demonstration outputs.
 - Style: same-size cards, restrained blue emphasis on the active or core step, neutral fills for supporting steps.
 - Quality rule: avoid zigzag arrows and uneven card sizes.
+- Card rule: when cards have step numbers, place the number in a reserved top band above the title or in a dedicated narrow column; never let the number badge overlap the title.
 
 ## T3 Layered Principle Stack
 
@@ -34,6 +35,7 @@ Use for technical principles, algorithms, processes, systems, and mechanism expl
 - Structure: input/object layer -> method/model layer -> integration/control layer -> validation/output layer.
 - Style: layer bands with subtle fills; internal modules aligned in columns.
 - Quality rule: show causality through layer order and short connectors, not through scattered component placement.
+- Card rule: short labels may use compact modules, but badges/icons must not occupy the same line as the main label unless the remaining title width is verified to fit.
 
 ## T4 Formal Closed Loop
 
