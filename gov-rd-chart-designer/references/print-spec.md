@@ -21,6 +21,7 @@ Design figures for formal A4 government application documents. The figure must r
 - For compact document matrices, prefer 9 pt text with 1.05-1.15 line spacing; avoid loose paragraph spacing inside cells.
 - For numbered cards, badges, corner tags, or icons, reserve a separate layout band. Do not place the badge and the title on the same crowded baseline. If the title is long, move the badge above the title, reduce the title one step, or wrap the title into two centered lines.
 - Every text box must pass a fit check at final Word insertion size: no glyph may touch the border, overlap a badge/icon, or exceed the box boundary after SVG/PDF/PNG export.
+- For tall cards with sparse content, vertically balance the badge/title/body group within the usable card area. Do not leave all text clustered near the top with a large blank lower half; either move the text group toward the center, add concise technical evidence text, or reduce the card height.
 
 ## Lines And Shapes
 
@@ -79,6 +80,7 @@ Before final delivery, check:
 - Are repeated modules aligned and evenly spaced?
 - Do all cards and text boxes keep badges, titles, body text, and notes in separate non-overlapping zones?
 - Does every text label fit inside its box at final Word/PDF size without touching borders or colliding with markers?
+- Do tall cards avoid top-heavy text placement and excessive empty lower space?
 - Does the figure avoid floating boxes, long diagonal arrows, and large unused canvas areas?
 - Does the figure contain only the information needed for the current section?
 - For matrices, does the first column contain serial numbers as its own column rather than floating markers?

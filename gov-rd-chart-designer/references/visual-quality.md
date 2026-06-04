@@ -23,6 +23,7 @@ Reject and redraw the figure if any of the following appears:
 - Text is off-center, too close to borders, or unevenly distributed across similar cells.
 - A numbered badge, corner tag, icon, or label overlaps the title, shares a cramped title baseline, or causes title text to spill outside the card.
 - Text inside any box clips, touches the border, or extends beyond the box boundary after export.
+- Sparse text sits near the top of a tall card while the lower half is mostly empty, making the module look underfilled.
 - Large unused areas remain after the core content is placed.
 - Lines touch text, collide with box borders awkwardly, or cross other connectors.
 - The color palette uses unrelated accent colors for peer modules without encoding a real difference.
@@ -57,6 +58,7 @@ Text must look intentionally typeset:
 - Center text horizontally and vertically in modules, matrix cells, and numbered nodes unless an explicit paragraph note needs left alignment.
 - For card layouts, reserve distinct vertical zones: badge/tag first, title second, body third, note last. Badges and titles must not overlap or compete for the same horizontal space.
 - Before finalizing, check all card titles and body labels against the actual box width; wrap, shorten, or reduce by one type step before allowing overflow.
+- For tall cards with little text, place the combined badge/title/body group around the visual center of the card or shorten the card. Avoid top-aligned text that makes the module look empty.
 - Do not use oversized titles inside the artwork. Put the official figure caption outside the image.
 
 ## Editable Source Requirements

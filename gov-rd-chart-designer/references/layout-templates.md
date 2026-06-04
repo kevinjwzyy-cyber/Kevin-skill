@@ -26,6 +26,7 @@ Use for project implementation routes and staged R&D plans.
 - Style: same-size cards, restrained blue emphasis on the active or core step, neutral fills for supporting steps.
 - Quality rule: avoid zigzag arrows and uneven card sizes.
 - Card rule: when cards have step numbers, place the number in a reserved top band above the title or in a dedicated narrow column; never let the number badge overlap the title.
+- Card rule: if equal cards must be tall but contain little text, vertically balance the number/title/body group inside each card or reduce card height so the lane does not look underfilled.
 
 ## T3 Layered Principle Stack
 
@@ -36,6 +37,7 @@ Use for technical principles, algorithms, processes, systems, and mechanism expl
 - Style: layer bands with subtle fills; internal modules aligned in columns.
 - Quality rule: show causality through layer order and short connectors, not through scattered component placement.
 - Card rule: short labels may use compact modules, but badges/icons must not occupy the same line as the main label unless the remaining title width is verified to fit.
+- Card rule: tall principle cards should not cluster text at the top; center the content group visually or add concise mechanism/evidence labels.
 
 ## T4 Formal Closed Loop
 

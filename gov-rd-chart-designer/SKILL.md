@@ -67,6 +67,7 @@ Before finalizing, verify:
 - The layout uses a clear grid, lane, table, or symmetric structure rather than freely placed boxes.
 - Text remains readable in A4 Word/PDF at the intended insertion size.
 - Text boxes do not overflow, clip, or collide: numbered badges, corner tags, icons, or labels must occupy their own reserved zone and must not share a cramped title baseline.
+- Sparse text in tall cards is visually balanced: if a card has only a short title and 1-3 body lines, center the content group vertically or reduce the card height instead of leaving a large empty lower area.
 - Meaning is still clear in black-and-white printing.
 - Lines, arrows, labels, and module boundaries are visible after PDF export.
 - Arrows are short, deliberate, and aligned; long diagonal connectors and awkward collisions are rejected.
