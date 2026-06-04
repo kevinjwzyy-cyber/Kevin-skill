@@ -12,8 +12,8 @@ Design figures for formal A4 government application documents. The figure must r
 
 ## Typography
 
-- Minimum in-figure Chinese text: 8.5-9 pt at final Word insertion size.
-- Preferred module text: 9-10 pt.
+- Minimum in-figure Chinese text: 8.5-9 pt at final Word insertion size; treat this as a lower bound, not the default.
+- Preferred module text: 10-11 pt for card, route, principle, closed-loop, and architecture figures. Use 9-10 pt mainly for compact matrices or dense architecture cells.
 - Figure title inside artwork, if needed: 10.5-12 pt.
 - Caption outside artwork: follow the document's Word style, usually 10.5 pt or body-caption style.
 - Use common Chinese fonts such as SimSun, SimHei, Microsoft YaHei, or the document's existing font style.
@@ -22,6 +22,7 @@ Design figures for formal A4 government application documents. The figure must r
 - For numbered cards, badges, corner tags, or icons, reserve a separate layout band. Do not place the badge and the title on the same crowded baseline. If the title is long, move the badge above the title, reduce the title one step, or wrap the title into two centered lines.
 - Every text box must pass a fit check at final Word insertion size: no glyph may touch the border, overlap a badge/icon, or exceed the box boundary after SVG/PDF/PNG export.
 - For tall cards with sparse content, vertically balance the badge/title/body group within the usable card area. Do not leave all text clustered near the top with a large blank lower half; either move the text group toward the center, add concise technical evidence text, or reduce the card height.
+- If print proof or a printed-page photo shows weak figure text, enlarge the core labels first and remove redundant in-artwork titles or blank canvas before reducing information content.
 
 ## Lines And Shapes
 
@@ -75,6 +76,7 @@ Prefer vector output. If raster export is unavoidable:
 Before final delivery, check:
 
 - Can the smallest label be read when the figure is viewed at A4 page size?
+- On a real printed sample, do the core labels read comfortably without leaning in? If not, increase type size and reduce unused canvas.
 - Is the figure still understandable in grayscale?
 - Are arrows and line boundaries visible after PDF export?
 - Are repeated modules aligned and evenly spaced?
