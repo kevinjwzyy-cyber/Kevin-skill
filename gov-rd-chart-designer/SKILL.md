@@ -33,6 +33,8 @@ Default to figures that are restrained, editable, logically explicit, and readab
    - Read `references/visual-quality.md` before choosing a layout pattern or producing editable source.
    - Prefer editable vector output: SVG, draw.io XML, Mermaid source that can be exported to SVG/PDF, or a PPT/Word-editable structure.
    - For document matrices, keep the table body dominant, reduce outer and cell padding, and avoid floating decorative row numbers.
+   - For step cards, route cards, phase cards, and closed-loop nodes, use a centered content group by default: badge/tag, title, body, and note/evidence each occupy separate vertical zones with visible gaps.
+   - If a reviewer flags small text, top-heavy cards, non-centered text, or badge-title collisions in one figure, audit every figure in the same document using the same template before finalizing.
    - Avoid floating boxes on blank canvas, long diagonal arrows, color-only meaning, low-contrast labels, gradients, shadows, tiny text, screenshot-like raster output, and slide-style decoration.
 
 5. Generate chapter-aware labels.
@@ -68,7 +70,9 @@ Before finalizing, verify:
 - Text remains readable in A4 Word/PDF at the intended insertion size.
 - Printed proof readability is the final standard: if a printed page photo shows labels weaker than surrounding body text, enlarge core labels, remove redundant in-artwork titles, and tighten whitespace before accepting the figure.
 - Text boxes do not overflow, clip, or collide: numbered badges, corner tags, icons, or labels must occupy their own reserved zone and must not share a cramped title baseline.
+- If the user asks to fix badge/title overlap without changing font size, preserve font sizes and adjust only spacing, coordinates, card height, or reserved zones.
 - Sparse text in tall cards is visually balanced: if a card has only a short title and 1-3 body lines, center the content group vertically or reduce the card height instead of leaving a large empty lower area.
+- Route, task, phase, and closed-loop cards do not place note/evidence text at the bottom as a loose footer unless the card is explicitly designed as a footer card; concise evidence belongs inside the centered content group.
 - Meaning is still clear in black-and-white printing.
 - Lines, arrows, labels, and module boundaries are visible after PDF export.
 - Arrows are short, deliberate, and aligned; long diagonal connectors and awkward collisions are rejected.

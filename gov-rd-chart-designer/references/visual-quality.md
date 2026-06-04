@@ -24,6 +24,8 @@ Reject and redraw the figure if any of the following appears:
 - A numbered badge, corner tag, icon, or label overlaps the title, shares a cramped title baseline, or causes title text to spill outside the card.
 - Text inside any box clips, touches the border, or extends beyond the box boundary after export.
 - Sparse text sits near the top of a tall card while the lower half is mostly empty, making the module look underfilled.
+- A route, phase, task, or closed-loop card uses bottom-aligned note text while the main body of the card is mostly empty.
+- A numbered badge overlaps, touches, or visually crowds the title, even if the overlap is only caused by export/rendering differences.
 - Core labels look acceptable on screen but become weak or hard to read in a printed-page photo.
 - Large unused areas remain after the core content is placed.
 - Lines touch text, collide with box borders awkwardly, or cross other connectors.
@@ -60,8 +62,23 @@ Text must look intentionally typeset:
 - For card layouts, reserve distinct vertical zones: badge/tag first, title second, body third, note last. Badges and titles must not overlap or compete for the same horizontal space.
 - Before finalizing, check all card titles and body labels against the actual box width; wrap, shorten, or reduce by one type step before allowing overflow.
 - For tall cards with little text, place the combined badge/title/body group around the visual center of the card or shorten the card. Avoid top-aligned text that makes the module look empty.
+- For closed-loop nodes, keep the badge in a dedicated top band, then place the title below it with a visible gap; the body lines should sit below the title as part of the same centered group.
+- For route, task, and phase cards, split output/evidence notes into short centered lines and place them inside the card's main content group instead of pinning them to the bottom edge.
+- If the requested fix says not to change font size, repair the layout by changing coordinates, reserved bands, line breaks, or card dimensions only.
 - For printed proposal figures, prefer 10-11 pt equivalent text for core labels. Do not preserve decorative title bands or large blank margins at the cost of print readability.
 - Do not use oversized titles inside the artwork. Put the official figure caption outside the image.
+
+## Revision Propagation
+
+When one figure in a document is corrected for any of these issues, inspect all figures using the same template before returning the final file:
+
+- badge/title overlap;
+- top-heavy sparse cards;
+- small in-figure text on printed proof;
+- matrix cells that are not visibly centered;
+- bottom-anchored evidence text in route, task, phase, or loop cards.
+
+Apply the fix globally to the same pattern unless there is a clear section-specific reason not to.
 
 ## Editable Source Requirements
 

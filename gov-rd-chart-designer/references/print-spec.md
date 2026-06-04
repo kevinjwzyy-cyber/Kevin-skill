@@ -20,8 +20,11 @@ Design figures for formal A4 government application documents. The figure must r
 - Avoid long sentences inside boxes. Use short phrases, numbering, and line breaks.
 - For compact document matrices, prefer 9 pt text with 1.05-1.15 line spacing; avoid loose paragraph spacing inside cells.
 - For numbered cards, badges, corner tags, or icons, reserve a separate layout band. Do not place the badge and the title on the same crowded baseline. If the title is long, move the badge above the title, reduce the title one step, or wrap the title into two centered lines.
+- In numbered step cards, route cards, phase cards, and closed-loop nodes, the normal vertical order is: badge/tag band -> title band -> body band -> concise evidence/output band. Leave an obvious gap between badge and title; never let the badge touch, cover, or visually merge with the first title line.
+- If the user explicitly says not to change font size, fix collisions by moving the badge, title, body, or evidence bands; do not shrink text as the first response.
 - Every text box must pass a fit check at final Word insertion size: no glyph may touch the border, overlap a badge/icon, or exceed the box boundary after SVG/PDF/PNG export.
 - For tall cards with sparse content, vertically balance the badge/title/body group within the usable card area. Do not leave all text clustered near the top with a large blank lower half; either move the text group toward the center, add concise technical evidence text, or reduce the card height.
+- Do not use bottom-anchored note text in sparse cards by default. Split long slash-separated evidence such as `样本版本 / 模型输出 / 人工修改记录 / 质检结果 / 批次报告` into two or three centered lines inside the content group.
 - If print proof or a printed-page photo shows weak figure text, enlarge the core labels first and remove redundant in-artwork titles or blank canvas before reducing information content.
 
 ## Lines And Shapes
@@ -55,10 +58,13 @@ Use these rules for formal matrix figures such as bottleneck-technology-validati
 - Keep row numbers exactly centered in the dedicated `序号` column; they must not sit above, below, or outside the cell center.
 - Use left alignment only as an explicit exception for long paragraph-like evidence text, and keep it vertically centered within the cell.
 - Use consistent row heights. For 4-row matrices, target about 22-30 mm per row within a 150-160 mm wide portrait figure.
+- If a matrix appears too small in a printed-page proof, first enlarge the table footprint and reduce unused outer margins, then raise header/body text size within the same table grid. Do not leave a small table floating inside a large artwork frame.
 - Keep column headers to one short phrase each. Use a light gray-blue or pale blue header fill, not large high-saturation color blocks.
 - Put row numbers in a dedicated narrow first column labeled `序号`; width should be about 7-10% of the table width.
 - Use plain centered numbers `1`, `2`, `3`, `4`; do not use floating circles, badges, icons, or decorative markers for row numbers.
 - Keep the table compact but readable: do not reduce Chinese text below 8.5-9 pt, line width below 0.75 pt, or padding below the point where text touches borders.
+- For sparse evidence matrices with 3-5 columns, prefer 10-11 pt equivalent body text when space allows; use 9 pt only when the matrix is genuinely dense.
+- Keep multi-item evidence cells centered. If a cell has 3-4 short evidence items and looks crowded after enlarging text, combine related items into two centered lines using slashes rather than shrinking the text.
 - Avoid sparse cells. If a cell contains only one short phrase while surrounding cells are empty-looking, add a concise second phrase, merge redundant rows, or reduce row height.
 - If the matrix needs more than 5 columns or the cells become crowded, split into two figures or move detail to a document table.
 
@@ -81,6 +87,7 @@ Before final delivery, check:
 - Are arrows and line boundaries visible after PDF export?
 - Are repeated modules aligned and evenly spaced?
 - Do all cards and text boxes keep badges, titles, body text, and notes in separate non-overlapping zones?
+- In closed-loop and route cards, is there visible vertical separation between badge and title, and is the whole text group visually centered rather than top-heavy?
 - Does every text label fit inside its box at final Word/PDF size without touching borders or colliding with markers?
 - Do tall cards avoid top-heavy text placement and excessive empty lower space?
 - Does the figure avoid floating boxes, long diagonal arrows, and large unused canvas areas?

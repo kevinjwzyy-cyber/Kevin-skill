@@ -15,6 +15,9 @@ Use for bottleneck, task, indicator, method, verification, and evidence mappings
 - Columns: `序号 | 对象/问题 | 方法/技术 | 验证/依据 | 成果/证据`.
 - Style: pale gray-blue header, white body, dark gray text, blue-gray grid lines.
 - Quality rule: table fills most of the figure; no floating row numbers, badges, or decorative icons.
+- Typography rule: if the matrix has 3-5 columns and short phrases, use larger print-readable body text rather than treating it as a dense data table.
+- Alignment rule: headers, serial numbers, and all body cells are horizontally and vertically centered by default. Combine multi-item evidence into two centered lines before shrinking text.
+- Print rule: if the printed proof looks weak, enlarge the table footprint and reduce unused margins before reducing content.
 
 ## T2 Technical Route Lane
 
@@ -27,6 +30,8 @@ Use for project implementation routes and staged R&D plans.
 - Quality rule: avoid zigzag arrows and uneven card sizes.
 - Card rule: when cards have step numbers, place the number in a reserved top band above the title or in a dedicated narrow column; never let the number badge overlap the title.
 - Card rule: if equal cards must be tall but contain little text, vertically balance the number/title/body group inside each card or reduce card height so the lane does not look underfilled.
+- Card rule: do not place evidence, output, or note text as a bottom footer in sparse cards. Split long evidence lists into centered 2-3 line groups inside the card or in a separate evidence band.
+- Revision rule: when one route card has a badge/title collision or top-heavy text, fix all route cards in the same figure and audit other route figures in the document.
 
 ## T3 Layered Principle Stack
 
@@ -49,6 +54,9 @@ Use for validation, iteration, application feedback, and continuous improvement.
 - Center label: optional small center tag only; do not use a large isolated center box.
 - Style: one restrained blue loop color plus neutral gray support labels.
 - Quality rule: never use detached boxes around a large center box with long diagonal arrows.
+- Node rule: each loop node uses a centered content group: badge in a top band, title below with a visible gap, then 1-2 body lines below the title.
+- Spacing rule: if badge and title collide, adjust vertical bands or node height while preserving requested font sizes.
+- Center label rule: if a center evidence tag is used, center both the header and body text and keep the header band tall enough that it does not crowd the body.
 
 ## T5 Comparison Card Pair
 
