@@ -1,4 +1,4 @@
 interface:
   display_name: "政府科技申报图表设计"
-  short_description: "为政府科技研发类项目申报书设计适合Word/PDF插入和印刷的专业图表。"
-  default_prompt: "Use $gov-rd-chart-designer to design a print-readable Word/PDF figure for this government R&D project application text."
+  short_description: "为政府科技研发类项目申报书设计适合Word/PDF插入、印刷清晰的正式申报信息图。"
+  default_prompt: "Use $gov-rd-chart-designer to design a selected-quality, print-readable Word/PDF proposal infographic for this government R&D project application text."

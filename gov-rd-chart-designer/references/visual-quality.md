@@ -1,24 +1,38 @@
 # Visual Quality Standard
 
-Use this standard to prevent government R&D proposal figures from looking temporary, sparse, or PPT-like. A finished figure should look like a formal Word/PDF body illustration prepared for expert review.
+Use this standard to prevent government R&D proposal figures from looking temporary, sparse, timid, or PPT-like. A finished figure should look like a formal Word/PDF body infographic prepared for expert review: readable in print, specific to the project, and strong enough to make the proposal argument visible.
 
 ## Finished Figure Standard
 
 A finished figure must satisfy these requirements:
 
 - Use an obvious grid, lane, table, or symmetric structure; do not place boxes freely on a blank canvas.
+- Show a clear visual anchor: central spine, layer stack, mapping pair, timeline, architecture stack, lifecycle loop, matrix, or validation loop.
+- Make the project subject visible inside the artwork through concise domain terms, not only through the external caption or surrounding paragraph.
 - Similar modules use the same size, border, fill, typography, and internal padding.
 - Edges, centers, arrows, and labels align deliberately; avoid modules that look positioned by eye.
-- Empty space is controlled. The artwork should not have large blank corners while the main content sits loosely in the middle.
-- The figure should look document-grade and restrained, not like a slide template, poster, casual sketch, or quick diagram.
+- Empty space is controlled. The main visual structure should usually occupy 75-90% of the artwork area; avoid large blank corners while the main content sits loosely in the middle.
+- The figure should look document-grade and selected-quality: restrained enough for a proposal body, but not so pale, small, or generic that it disappears on an A4 printed page.
+
+## Selected-Figure Quality Gate
+
+Use this gate when the user provides accepted reference figures or asks for a formal infographic style.
+
+- Strong theme anchor: use a short in-artwork phrase that names the core subject or evidence logic, such as `多智能体中枢（项目核心主体）` or `低空数据资产全生命周期复用`. This is not the official figure caption.
+- High canvas utilization: export at the real figure ratio and fill the available Word figure width. Reject square canvases that contain a small chart in the center unless the figure is truly circular or square.
+- Large core typography: core labels should read comfortably in a printed-page photo; if they look weaker than body text, increase label size/weight before changing content.
+- Domain specificity: include industry terms, scenario names, key models, acceptance numbers, and evidence names. Avoid diagrams that could fit any project after relabeling `数据层/模型层/服务层`.
+- Review value: a reviewer should understand the main problem, core technology, output, or evidence chain within about 10 seconds.
 
 ## Anti-Ugly Rules
 
 Reject and redraw the figure if any of the following appears:
 
 - Independent boxes float around the canvas without a grid, lane, or table structure.
+- The figure has no obvious theme anchor or visual center.
 - Long diagonal arrows connect distant boxes and make the layout look scattered.
 - The central module is boxed but does not align with surrounding modules.
+- The diagram is a small center object inside a large pale frame or square export canvas.
 - Peer modules have inconsistent widths, heights, or text baselines without a logical reason.
 - Text is off-center, too close to borders, or unevenly distributed across similar cells.
 - A numbered badge, corner tag, icon, or label overlaps the title, shares a cramped title baseline, or causes title text to spill outside the card.
@@ -28,6 +42,7 @@ Reject and redraw the figure if any of the following appears:
 - A numbered badge overlaps, touches, or visually crowds the title, even if the overlap is only caused by export/rendering differences.
 - Core labels look acceptable on screen but become weak or hard to read in a printed-page photo.
 - Large unused areas remain after the core content is placed.
+- Labels are generic and do not expose the project's domain scene, key technology, acceptance evidence, or quantitative outputs.
 - Lines touch text, collide with box borders awkwardly, or cross other connectors.
 - The color palette uses unrelated accent colors for peer modules without encoding a real difference.
 
@@ -36,10 +51,13 @@ Reject and redraw the figure if any of the following appears:
 Choose one stable pattern before drawing:
 
 - Matrix or evidence mapping: use a real table grid with compact rows and centered cell text.
+- Overall framework: use a central spine, strong core subject bar, or compact tree that links pain points to outputs.
 - Technical route: use a left-to-right or top-to-bottom lane flow with consistent step cards.
 - Closed-loop validation: use a compact four-step cycle, a two-row feedback lane, or a 2x2 quadrant with a clear loop arrow path.
 - Principle figure: use layered input-method-output structure, not scattered components.
 - Task decomposition: use grouped lanes or a tree with aligned child modules.
+
+For selected-style figures, also read `style-profiles.md` and choose S1-S8.
 
 ## Closed-Loop Figure Rules
 
@@ -66,7 +84,7 @@ Text must look intentionally typeset:
 - For route, task, and phase cards, split output/evidence notes into short centered lines and place them inside the card's main content group instead of pinning them to the bottom edge.
 - If the requested fix says not to change font size, repair the layout by changing coordinates, reserved bands, line breaks, or card dimensions only.
 - For printed proposal figures, prefer 10-11 pt equivalent text for core labels. Do not preserve decorative title bands or large blank margins at the cost of print readability.
-- Do not use oversized titles inside the artwork. Put the official figure caption outside the image.
+- Put the official figure caption outside the image. Inside the artwork, a short theme anchor is allowed when it clarifies the proposal argument; do not duplicate the official caption as a large decorative title.
 
 ## Revision Propagation
 
@@ -75,6 +93,8 @@ When one figure in a document is corrected for any of these issues, inspect all 
 - badge/title overlap;
 - top-heavy sparse cards;
 - small in-figure text on printed proof;
+- weak visual anchor or excessive blank canvas;
+- generic labels that omit project-specific terms;
 - matrix cells that are not visibly centered;
 - bottom-anchored evidence text in route, task, phase, or loop cards.
 

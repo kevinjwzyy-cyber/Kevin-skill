@@ -15,7 +15,7 @@ Figure labels must follow the chapter and the surrounding text. Do not generate 
 
 Use a caption that connects the chapter topic, project subject, and figure purpose.
 
-For Word/PDF body figures, keep the official caption outside the artwork. Do not place `建议图题`, formal figure numbers, large titles, subtitles, or explanatory footer notes inside the image unless the user explicitly asks for a display-style graphic.
+For Word/PDF body figures, keep the official caption outside the artwork. Do not place `建议图题`, formal figure numbers, duplicated large captions, or explanatory footer notes inside the image unless the user explicitly asks for a display-style graphic. A short in-artwork theme anchor is allowed when it names the core subject or evidence logic, such as `多智能体中枢（项目核心主体）` or `低空数据资产全生命周期复用`.
 
 Good patterns:
 
@@ -32,7 +32,7 @@ Avoid:
 - `项目图`
 - captions that use marketing slogans instead of technical content.
 - putting `建议图题：...` inside the image itself.
-- duplicating a large in-image title and a Word caption for the same figure.
+- duplicating a large in-image caption and a Word caption for the same figure.
 
 ## Body Reference Sentences
 

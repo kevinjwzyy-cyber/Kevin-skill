@@ -7,17 +7,20 @@ Design figures for formal A4 government application documents. The figure must r
 - Default body figure width: 150-160 mm, matching common A4 Word text width.
 - Compact portrait figure height: 70-110 mm.
 - Complex portrait figure height: up to 160 mm if the surrounding text allows it.
+- Selected-style infographic ratio: use the true content ratio, commonly 16:9, 4:3, 3:2, or 4:1 for timelines. Use a square canvas only when the actual layout is square or circular and fills that canvas.
+- Main structure occupancy: target 75-90% of the artwork area. If the rendered figure looks like a small chart inside a large frame, redesign the ratio or enlarge the structure before delivery.
 - Landscape A4 figure: use only when the logic cannot be read in portrait; keep a clear caption and body reference.
 - Appendix figure: acceptable for dense architecture or indicator matrices, but keep the main text figure simpler.
 
 ## Typography
 
-- Minimum in-figure Chinese text: 8.5-9 pt at final Word insertion size; treat this as a lower bound, not the default.
-- Preferred module text: 10-11 pt for card, route, principle, closed-loop, and architecture figures. Use 9-10 pt mainly for compact matrices or dense architecture cells.
-- Figure title inside artwork, if needed: 10.5-12 pt.
+- Minimum in-figure Chinese text: 8.5-9 pt at final Word insertion size; treat this as a lower bound for dense cells, not the default.
+- Preferred module text: 10.5-12 pt for selected-style card, route, principle, closed-loop, and architecture figures. Use 9.5-10.5 pt mainly for compact matrices or dense architecture cells.
+- In-artwork theme anchor, if needed: 13-18 pt equivalent, bold, concise, and not a duplicate official caption.
 - Caption outside artwork: follow the document's Word style, usually 10.5 pt or body-caption style.
 - Use common Chinese fonts such as SimSun, SimHei, Microsoft YaHei, or the document's existing font style.
 - Avoid long sentences inside boxes. Use short phrases, numbering, and line breaks.
+- Put project-specific domain terms and measurable evidence in the figure. A print-readable generic label is still a weak label if it does not explain the project.
 - For compact document matrices, prefer 9 pt text with 1.05-1.15 line spacing; avoid loose paragraph spacing inside cells.
 - For numbered cards, badges, corner tags, or icons, reserve a separate layout band. Do not place the badge and the title on the same crowded baseline. If the title is long, move the badge above the title, reduce the title one step, or wrap the title into two centered lines.
 - In numbered step cards, route cards, phase cards, and closed-loop nodes, the normal vertical order is: badge/tag band -> title band -> body band -> concise evidence/output band. Leave an obvious gap between badge and title; never let the badge touch, cover, or visually merge with the first title line.
@@ -25,13 +28,13 @@ Design figures for formal A4 government application documents. The figure must r
 - Every text box must pass a fit check at final Word insertion size: no glyph may touch the border, overlap a badge/icon, or exceed the box boundary after SVG/PDF/PNG export.
 - For tall cards with sparse content, vertically balance the badge/title/body group within the usable card area. Do not leave all text clustered near the top with a large blank lower half; either move the text group toward the center, add concise technical evidence text, or reduce the card height.
 - Do not use bottom-anchored note text in sparse cards by default. Split long slash-separated evidence such as `样本版本 / 模型输出 / 人工修改记录 / 质检结果 / 批次报告` into two or three centered lines inside the content group.
-- If print proof or a printed-page photo shows weak figure text, enlarge the core labels first and remove redundant in-artwork titles or blank canvas before reducing information content.
+- If print proof or a printed-page photo shows weak figure text, fix in this order: enlarge core labels or increase weight; reduce blank canvas and outer frames; enlarge the main structure; simplify nonessential text; only then reduce information content.
 
 ## Lines And Shapes
 
 - Minimum visible line width: 0.75 pt.
-- Preferred module border: 1.0 pt.
-- Important boundary or main flow arrow: 1.1-1.5 pt.
+- Preferred module border: 1.1-1.3 pt for selected-style figures; 1.0 pt is acceptable for dense matrices.
+- Important boundary or main flow arrow: 1.3-1.8 pt for selected-style figures; 1.1-1.5 pt for compact formal diagrams.
 - Use arrowheads large enough to survive PDF export.
 - Keep spacing consistent; avoid crowded arrows crossing text.
 - Prefer straight or orthogonal connectors in formal document figures; avoid long diagonal connectors unless they are the only clear way to show the relation.
@@ -42,10 +45,11 @@ Design figures for formal A4 government application documents. The figure must r
 
 - Default background: white.
 - Primary line/text: dark gray or near black.
-- Primary accent: restrained government blue.
+- Primary accent: deep government blue or gray-blue strong enough to survive office printing.
 - Secondary accents: gray-blue, teal, or muted gold only when useful.
 - Do not rely on color alone. Use position, numbering, shape, line style, or labels to encode meaning.
-- Avoid gradients, glow, transparency, heavy shadows, large dark backgrounds, and low-contrast pale colors.
+- Light blue bands or subtle blue depth are allowed when they clarify hierarchy and preserve text contrast.
+- Avoid glow, transparency, heavy shadows, decorative gradients, large dark backgrounds with small white text, and low-contrast pale colors.
 
 ## Compact Document Matrix
 
@@ -83,6 +87,7 @@ Before final delivery, check:
 
 - Can the smallest label be read when the figure is viewed at A4 page size?
 - On a real printed sample, do the core labels read comfortably without leaning in? If not, increase type size and reduce unused canvas.
+- Does the figure have a strong theme anchor or central visual object, and does it name the project-specific subject?
 - Is the figure still understandable in grayscale?
 - Are arrows and line boundaries visible after PDF export?
 - Are repeated modules aligned and evenly spaced?
@@ -90,8 +95,9 @@ Before final delivery, check:
 - In closed-loop and route cards, is there visible vertical separation between badge and title, and is the whole text group visually centered rather than top-heavy?
 - Does every text label fit inside its box at final Word/PDF size without touching borders or colliding with markers?
 - Do tall cards avoid top-heavy text placement and excessive empty lower space?
-- Does the figure avoid floating boxes, long diagonal arrows, and large unused canvas areas?
+- Does the figure avoid floating boxes, long diagonal arrows, large unused canvas areas, and square-canvas small-center output?
 - Does the figure contain only the information needed for the current section?
+- Does the figure expose industry terms, core pain points, key technologies, acceptance numbers, demonstration scenes, or evidence names where relevant?
 - For matrices, does the first column contain serial numbers as its own column rather than floating markers?
 - For matrices, are all headers, row numbers, and body text horizontally and vertically centered unless a long evidence note is explicitly left-aligned?
 - For matrices, does the figure avoid a "few words in a large box" look while preserving A4 readability?
