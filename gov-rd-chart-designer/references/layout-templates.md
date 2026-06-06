@@ -8,6 +8,8 @@ Before producing editable source, choose one template and state it briefly in th
 
 After choosing T1-T6, choose a style profile from `style-profiles.md` when the user asks for a formal proposal infographic, a full-document redesign, or a selected-reference style. The layout template defines structure; the style profile defines visual emphasis.
 
+When the user asks for strict national/provincial/municipal key R&D figure norms, official 4:3 prompt templates, or `申报书必备图`, also read `official-4x3-prompt-rules.md`. In that mode, use 4:3 white-canvas layouts and avoid gradients, shadows, 3D effects, cartoon elements, and decorative backgrounds.
+
 ## Strong Theme Anchor Variant
 
 For selected-quality proposal infographics, the official caption remains outside the artwork, but the artwork may include a short theme anchor that names the core subject or evidence logic.
@@ -19,6 +21,16 @@ For selected-quality proposal infographics, the official caption remains outside
 - Architecture: a layer stack should use project-specific module names instead of generic `数据层/模型层/服务层` only.
 - Closed loop: use a compact 2x2 loop, circular lifecycle, or large validation loop that fills the canvas.
 - Matrix: use a dense grid occupying most of the artwork, not a small table inside a decorative frame.
+
+## Official Required Figure Patterns
+
+Use these patterns as defaults when a prompt requests required proposal figures under strict official 4:3 norms.
+
+- `课题总体框架图`: central blue rounded rectangle for the AI/core technical engine, four balanced surrounding modules for scene object, scene pain points, R&D chain, and autonomous/acceptance outcomes; short inward or adjacent arrows only.
+- `科学原理与技术逻辑图`: five equal modules from `场景约束` to `数据证据`, `领域机理`, `智能模型`, and `工程验证`, plus one bottom innovation band.
+- `技术路线图`: 4-5 phase cards with stage names, time nodes when available, work focus, and output evidence; one clear route direction.
+- `系统架构图`: bottom-up or top-down layer stack covering source/sensing, data, model, application/service, and user/governance layers; modules must be project-specific.
+- `研究内容与考核指标对应图`: left research-content column and right indicator/evidence column with one-to-one aligned connectors; quantitative acceptance indicators must appear in the right column.
 
 ## T1 Compact Evidence Matrix
 

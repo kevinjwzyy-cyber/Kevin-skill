@@ -38,6 +38,7 @@ A qualified figure is not merely a clean diagram. It must make the section's arg
    - Read `references/chart-types.md` when selecting among architecture, technical route, principle, task decomposition, indicator matrix, closed-loop, or mechanism figures.
    - Read `references/layout-templates.md` and choose a stable template before drawing; avoid free-form placement.
    - Read `references/style-profiles.md` when choosing the visual style. Choose one of S1-S8 after selecting the chart type; style profiles do not replace T1-T6 layout templates.
+   - Read `references/official-4x3-prompt-rules.md` when the user asks for national/provincial/municipal key R&D application figure norms, strict proposal prompts, 4:3 official figures, or selected "申报书必备图" patterns.
    - Use the figure type that answers one clear question, such as "what technical bottleneck is solved," "how the core principle works," or "how tasks support indicators."
    - For bottleneck-technology-validation-evidence mappings, default to a compact document matrix with a separate narrow serial-number column.
 
@@ -79,6 +80,7 @@ Before finalizing, verify:
 - The caption matches the chapter topic and the target paragraph.
 - The figure uses a named layout template unless there is a clear reason to use a custom structure.
 - The figure uses a named style profile S1-S8 when the task asks for a formal proposal infographic or full-document chart redesign.
+- Strict official 4:3 mode is used when requested by the prompt or document context: 4:3 canvas, white background, flat technology style, sharp lines, restrained blue/green/orange accents, no gradient, no shadow, no 3D, no cartoon, no watermark, no logo, and no decorative background.
 - The figure expresses both proposal logic and technical principle where relevant.
 - The visual hierarchy can be understood in 10 seconds by a reviewer.
 - The project subject, domain terms, and acceptance evidence are visible in the artwork, not only in the surrounding paragraph.
@@ -97,4 +99,5 @@ Before finalizing, verify:
 - Matrix row numbers use a dedicated narrow column, not floating circles, badges, or decorative markers.
 - Matrix headers, row numbers, and body cell text are horizontally and vertically centered unless a long evidence note explicitly requires left alignment.
 - Official captions, formal figure numbers, `建议图题`, and long explanatory notes stay outside the artwork. Short in-artwork theme anchors are allowed when they clarify the project subject or evidence logic.
+- When inserting or replacing figures in a DOCX, preserve the document template's pagination rhythm: do not force page breaks before every chapter just to increase pages; keep each figure with its external caption; fix page numbers if they split or render as multiple vertical fragments.
 - The figure avoids empty slogans, decorative clutter, large unused canvas areas, and PPT-only visual effects.

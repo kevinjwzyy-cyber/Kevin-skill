@@ -59,6 +59,8 @@ Choose one stable pattern before drawing:
 
 For selected-style figures, also read `style-profiles.md` and choose S1-S8.
 
+If the prompt asks for strict national/provincial/municipal key R&D application norms, official 4:3 prompt templates, or `申报书必备图`, read `official-4x3-prompt-rules.md` and apply that stricter baseline before choosing the visual profile.
+
 ## Closed-Loop Figure Rules
 
 For closed-loop innovation, validation, iteration, or application figures:
@@ -85,6 +87,16 @@ Text must look intentionally typeset:
 - If the requested fix says not to change font size, repair the layout by changing coordinates, reserved bands, line breaks, or card dimensions only.
 - For printed proposal figures, prefer 10-11 pt equivalent text for core labels. Do not preserve decorative title bands or large blank margins at the cost of print readability.
 - Put the official figure caption outside the image. Inside the artwork, a short theme anchor is allowed when it clarifies the proposal argument; do not duplicate the official caption as a large decorative title.
+
+## Official Prompt Cleanliness Rules
+
+When strict official 4:3 mode is active, reject the figure if it contains:
+
+- artistic fonts, blurred text, tiny labels, or low text/background contrast;
+- 3D effects, cartoon elements, complex background patterns, decorative border frames, glow, shadow, or excessive gradient transitions;
+- watermarks, copyright marks, brand logos, or unrelated icons;
+- overly bright colors that fail grayscale review;
+- connectors that cross confusingly or make a balanced 4:3 figure look scattered.
 
 ## Revision Propagation
 

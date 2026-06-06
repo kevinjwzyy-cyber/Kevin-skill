@@ -7,16 +7,20 @@ Use these profiles after selecting the chart type and layout template. The profi
 - Choose exactly one style profile for each figure unless the user explicitly asks for alternatives.
 - Style profiles do not replace T1-T6 templates. Example: a task-indicator figure may use T1 plus S3; a validation loop may use T4 plus S8.
 - If the user provides an accepted or preferred reference figure, match its profile first, then adapt terminology and evidence to the current project.
+- If the prompt explicitly requires national/provincial/municipal key R&D norms, strict 4:3 official figures, or `申报书必备图`, read `official-4x3-prompt-rules.md` and apply that stricter baseline before selecting S1-S8.
 - A full proposal document may mix profiles, but keep color, font, and line weight consistent across the document.
 
 ## Shared Visual Tokens
 
 - Default width: 150-160 mm in Word body text.
 - Default export ratio: true content ratio, usually 16:9, 4:3, 3:2, or 1:1 only when the figure itself is circular or square. Do not center a small chart inside a square canvas.
+- Strict official prompt mode overrides the default export-ratio rule: use a unified 4:3 white canvas unless the user explicitly asks for another ratio.
 - Core title or theme anchor inside artwork: 13-18 pt equivalent, bold, concise, not a duplicate official caption.
 - Core module text: 10.5-12 pt equivalent for selected-style infographics; 9.5-10.5 pt only for dense matrices or architecture cells.
+- Strict official prompt mode uses at least 12 pt equivalent in-artwork Chinese text, with 14 pt for important labels when printed proof looks weak.
 - Main line/border: 1.1-1.6 pt equivalent; support grid lines: 0.75-1.0 pt equivalent.
 - Main palette: deep government blue, gray-blue, white, very light blue. Use teal, muted orange, or muted gold only for semantic emphasis.
+- Strict official prompt mode palette: deep blue `#1890ff`, deep green `#52B788`, orange `#F2994A`, optional `#4267B2` or `#C45A2F`; avoid shadows, 3D, cartoon elements, watermarks, logos, complex backgrounds, and excessive gradients.
 - Grayscale survival: position, hierarchy, numbering, arrows, and labels must still carry the meaning.
 
 ## S1 Deep-Blue Spine Overview

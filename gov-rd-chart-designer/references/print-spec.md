@@ -8,6 +8,7 @@ Design figures for formal A4 government application documents. The figure must r
 - Compact portrait figure height: 70-110 mm.
 - Complex portrait figure height: up to 160 mm if the surrounding text allows it.
 - Selected-style infographic ratio: use the true content ratio, commonly 16:9, 4:3, 3:2, or 4:1 for timelines. Use a square canvas only when the actual layout is square or circular and fills that canvas.
+- Strict official prompt mode: when the user requests national/provincial/municipal key R&D figure norms or a unified `4:3标准比例`, use a 4:3 white canvas even if another true ratio could work. Read `official-4x3-prompt-rules.md`.
 - Main structure occupancy: target 75-90% of the artwork area. If the rendered figure looks like a small chart inside a large frame, redesign the ratio or enlarge the structure before delivery.
 - Landscape A4 figure: use only when the logic cannot be read in portrait; keep a clear caption and body reference.
 - Appendix figure: acceptable for dense architecture or indicator matrices, but keep the main text figure simpler.
@@ -16,9 +17,11 @@ Design figures for formal A4 government application documents. The figure must r
 
 - Minimum in-figure Chinese text: 8.5-9 pt at final Word insertion size; treat this as a lower bound for dense cells, not the default.
 - Preferred module text: 10.5-12 pt for selected-style card, route, principle, closed-loop, and architecture figures. Use 9.5-10.5 pt mainly for compact matrices or dense architecture cells.
+- Strict official prompt mode: minimum in-artwork Chinese text is 12 pt equivalent at final insertion size; if the text is weak in printed proof or screenshots, raise important labels toward 14 pt before deleting content.
 - In-artwork theme anchor, if needed: 13-18 pt equivalent, bold, concise, and not a duplicate official caption.
 - Caption outside artwork: follow the document's Word style, usually 10.5 pt or body-caption style.
 - Use common Chinese fonts such as SimSun, SimHei, Microsoft YaHei, or the document's existing font style.
+- For strict official prompt mode, prefer Microsoft YaHei or SimHei-style bold Chinese labels; do not use artistic fonts.
 - Avoid long sentences inside boxes. Use short phrases, numbering, and line breaks.
 - Put project-specific domain terms and measurable evidence in the figure. A print-readable generic label is still a weak label if it does not explain the project.
 - For compact document matrices, prefer 9 pt text with 1.05-1.15 line spacing; avoid loose paragraph spacing inside cells.
@@ -50,6 +53,7 @@ Design figures for formal A4 government application documents. The figure must r
 - Do not rely on color alone. Use position, numbering, shape, line style, or labels to encode meaning.
 - Light blue bands or subtle blue depth are allowed when they clarify hierarchy and preserve text contrast.
 - Avoid glow, transparency, heavy shadows, decorative gradients, large dark backgrounds with small white text, and low-contrast pale colors.
+- Strict official prompt mode uses restrained blue/green/orange accents: deep blue `#1890ff`, deep green `#52B788`, orange `#F2994A`, optional `#4267B2` or `#C45A2F`. Avoid excessive gradients and keep text/background contrast high enough for grayscale printing.
 
 ## Compact Document Matrix
 
@@ -80,6 +84,7 @@ Prefer vector output. If raster export is unavoidable:
 - Recommended for line diagrams: 600 DPI.
 - For a 160 mm wide figure, use at least 1890 px wide at 300 DPI or 3780 px wide at 600 DPI.
 - Export with sharp text and no compression artifacts.
+- For strict official 4:3 prompt output, export the raster at 300 DPI or higher and insert it inline, centered, at about 150 mm width unless the document template defines a different figure width.
 
 ## Print Readability Check
 
@@ -101,3 +106,4 @@ Before final delivery, check:
 - For matrices, does the first column contain serial numbers as its own column rather than floating markers?
 - For matrices, are all headers, row numbers, and body text horizontally and vertically centered unless a long evidence note is explicitly left-aligned?
 - For matrices, does the figure avoid a "few words in a large box" look while preserving A4 readability?
+- In strict official prompt mode, does the figure remain clean with no 3D, cartoon, watermark, logo, complex background, shadow, or excessive gradient?
